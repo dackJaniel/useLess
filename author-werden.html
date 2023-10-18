@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UseLess - Author werden</title>
+
+    <!-- style -->
+    <link rel="stylesheet" href="css/app.min.css" />
+    <link rel="stylesheet" href="fontawesome/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="fontawesome/css/brands.min.css" />
+    <link rel="stylesheet" href="fontawesome/css/solid.min.css" />
+
+    <!-- favicon -->
+    <link rel="icon" href="image/png" href="/img/logo/logo.png" />
+    <link rel="icon" type="image/svg+xml" href="/img/logo/logo.svg" />
+
+    <!-- script -->
+    <script src="./js/validation.js" defer></script>
+  </head>
+  <body>
+    <h1 class="visuallyhidden">UseLess</h1>
+    <!-- navigation -->
+    <header>
+      <nav>
+        <ul class="flex justify-between width-1200">
+          <li>
+            <a href="index.html"
+              ><img src="../img/logo/logo.svg" alt="useless-logo"
+            /></a>
+          </li>
+          <div class="flex flex-column-md menu" id="menu">
+            <li><a href="../about.html">Über uns</a></li>
+            <li><a href="../galerie.html">Galerie</a></li>
+            <li><a href="../index.html#kontakt">Kontakt</a></li>
+            <li><a href="../auth/readme.html">Login</a></li>
+            <li>
+              <a href="../blog.html" class="btn btn-green-border">Blog</a>
+            </li>
+          </div>
+          <div class="menu-icon flex justify-between flex-column">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </ul>
+      </nav>
+
+      <!-- main heading -->
+      <div class="main-heading">
+        <img
+          src="img/an-author-making-notes-in-a-coffee-shop-2021-09-04-03-10-00-utc.jpg"
+          alt="useless-header-img"
+        />
+        <div class="cover cover-color-blue"></div>
+        <div class="txt width-900">
+          <h4 class="font-size-59">
+            Autor <a href="#form" class="font-size-59">werden</a>
+          </h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem,
+            praesentium? Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Consectetur, facilis.
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="width-750 margin-auto" style="padding: 100px 20px" id="form">
+        <h2 class="font-size-30">Jetzt Author werden</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis dolorum
+          accusamus sequi, odio quos corporis, nulla dolores consequatur culpa
+          harum veritatis nisi aperiam voluptatum, porro nam beatae sit. Tempora
+          labore error incidunt? Dolor, atque nam quaerat ducimus numquam quia
+          et.
+        </p>
+        <form class="form-clasic" id="registerNewAuthor" novalidate>
+          <h4 class="font-size-15">Anrede</h4>
+          <div>
+            <label
+              ><input type="radio" name="gender" checked /> Herr
+              <small class="font-size-08"></small
+            ></label>
+            <label
+              ><input type="radio" name="gender" /> Frau
+              <small class="font-size-08"></small
+            ></label>
+            <label
+              ><input type="radio" name="gender" /> Divers
+              <small class="font-size-08"></small
+            ></label>
+          </div>
+          <h4 class="font-size-15">Über dich</h4>
+          <div class="flex wrap">
+            <label for="name"
+              >Vorname* <br /><input type="text" name="name" />
+              <small class="font-size-08"></small>
+            </label>
+            <label for="lastname"
+              >Nachname* <br /><input type="text" name="lastName" />
+              <small class="font-size-08"></small
+            ></label>
+            <label for="email"
+              >E-Mail Adresse* <br /><input type="email" name="email" />
+              <small class="font-size-08"></small
+            ></label>
+            <label for="tel"
+              >Telefonnummer <br /><input type="tel" name="tel" />
+              <small class="font-size-08"></small
+            ></label>
+            <label for="search">
+              Wie hast du uns gefunden?*
+              <select name="search" id="search">
+                <option value="" selected disabled>Bitte auswählen</option>
+                <option value="social-media">Social Media</option>
+                <option value="google">Google Suche</option>
+                <option value="zeitung">Zeitung</option>
+                <option value="anzeige">Aus unserer Webung</option>
+                <option value="freunde">Freunde oder Verwante</option>
+              </select>
+              <small class="font-size-08"></small>
+            </label>
+          </div>
+          <h4 class="font-size-15">Erähle uns etwas über dich</h4>
+          <textarea name="" id="" cols="30" rows="5"></textarea>
+          <label for="dataSec">
+            <input type="checkbox" name="dataSec" id="dataSec" />
+            Ich bin damit einverstanden, dass meine Daten für diese Anfrage
+            gesendet, gespeichert und ausgewertet wird. Auserdem habe ich habe
+            die
+            <a href="#">Datenschutzbestimmungen</a> gelesen und verstanden.*
+            <small class="font-size-08"></small>
+          </label>
+          <label for="newsletter">
+            <input type="checkbox" name="newsletter" checked />
+            Ich möchte über aktuelle Aktionen und Neuigkeiten informiert werden.
+            <small class="font-size-08"></small>
+          </label>
+          <small class="font-size-08"
+            >*Notwendige Inhalte bitte ausfüllen</small
+          >
+          <!-- <input type="submit" value="Absenden" id="submit" /> -->
+          <!-- <button class="btn btn-green">Absenden</button> -->
+          <br />
+          <!-- div-btn nur vorrübergehen -->
+          <div
+            id="submit"
+            class="btn btn-green flex justify-between"
+            style="
+              display: inline-block;
+              width: auto;
+              padding: 10px;
+              margin-top: 10px;
+            "
+          >
+            Absenden
+          </div>
+          <div class="massage"></div>
+        </form>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer>
+      <!-- contact -->
+      <section class="contact" id="kontakt">
+        <div class="cover cover-color-green"></div>
+        <img
+          src="./img/businessman-on-the-phone-2021-09-02-06-02-33-utc-small.jpg"
+          alt="useless-background-contakt"
+        />
+        <div class="width-900 txt">
+          <a class="back-to-top" href="#top"></a>
+          <h3 class="font-size-30">Du hast Fragen? Schreibe uns.</h3>
+          <form action="#">
+            <div class="flex justify-center flex-column-sm">
+              <input type="text" name="name" placeholder="Name" />
+              <input type="mail" name="mail" placeholder="E-Mail Adresse" />
+            </div>
+            <textarea
+              name="anliegen"
+              id="anliegen"
+              placeholder="Trage hier dein Anliegen ein..."
+            ></textarea>
+            <input class="btn btn-blue" type="submit" value="Weg damit" />
+          </form>
+        </div>
+      </section>
+
+      <!-- social media links -->
+      <section class="sozial-media">
+        <a href="#top" class="backtotop backtotop-top backtotop-bg-green"
+          ><i class="fas fa-chevron-up"></i
+        ></a>
+        <div class="width-900 margin-auto">
+          <h3 class="font-size-30">Unterstützte uns auf unserer Mission</h3>
+          <div class="flex justify-center">
+            <a href="#"><i class="fab fa-instagram fa-icon"></i></a>
+            <a href="#"><i class="fab fa-facebook-square fa-icon"></i></a>
+            <a href="#"><i class="fab fa-twitter-square fa-icon"></i></a>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer links -->
+      <nav>
+        <div class="width-900 flex justify-between flex-column-sm margin-auto">
+          <ul class="footer-link-box">
+            <h4 class="font-size-15">Wichtige Seiten</h4>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Über uns</a></li>
+            <li><a href="galerie.html">Galerie</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+          </ul>
+          <ul class="footer-link-box">
+            <h4 class="font-size-15">Über useless.com</h4>
+            <li><a href="#">Datenschutz</a></li>
+            <li><a href="#">AGB</a></li>
+            <li><a href="#">Cookies</a></li>
+          </ul>
+          <ul class="footer-link-box">
+            <h4 class="font-size-15">Besuche uns</h4>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- seals -->
+      <section class="seal">
+        <div class="width-1200 flex justify-center margin-auto">
+          <img src="img/seal/bio.png" alt="useless-bio-seal" />
+          <img src="img/seal/bioland.png" alt="useless-bioland-seal" />
+          <img src="img/seal/bio2.png" alt="useless-bio-seal" />
+          <img src="img/seal/fairtrade.png" alt="useless-fairtrade-seal" />
+          <img src="img/seal/fsc.png" alt="useless-fsc-seal" />
+        </div>
+      </section>
+
+      <!-- copyright -->
+      <div class="copyright"><a href="#" nofollow>© Daniel Hilmer</a></div>
+    </footer>
+  </body>
+</html>

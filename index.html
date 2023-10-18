@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UseLess - Startseite</title>
+
+    <!-- style -->
+    <link rel="stylesheet" href="css/app.min.css" />
+    <link rel="stylesheet" href="fontawesome/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="fontawesome/css/brands.min.css" />
+    <link rel="stylesheet" href="fontawesome/css/solid.min.css" />
+
+    <!-- favicon -->
+    <link rel="icon" href="image/png" href="/img/logo/logo.png" />
+    <link rel="icon" type="image/svg+xml" href="/img/logo/logo.svg" />
+
+    <!-- script -->
+    <script src="./js/main.js" defer></script>
+    <script src="./js/slider-container.js" defer></script>
+    <script src="./js/slider-galery.js" defer></script>
+  </head>
+  <body>
+    <h1 class="visuallyhidden">UseLess</h1>
+
+    <!-- navigation -->
+    <header>
+      <nav>
+        <ul class="flex justify-between width-1200">
+          <li>
+            <a href="index.html"
+              ><img src="img/logo/logo.svg" alt="useless-logo"
+            /></a>
+          </li>
+          <div class="flex flex-column-md menu" id="menu">
+            <li><a href="about.html">Über uns</a></li>
+            <li><a href="galerie.html">Galerie</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+            <li><a href="auth/readme.html">Login</a></li>
+            <li><a href="blog.html" class="btn btn-green-border">Blog</a></li>
+          </div>
+          <div class="menu-icon flex justify-between flex-column">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </ul>
+      </nav>
+
+      <!-- main heading -->
+      <div class="main-heading">
+        <img
+          src="img/volunteers-collecting-rubbish-and-recycling-2021-08-28-16-49-39-utc.jpg"
+          alt="useless-header-img"
+        />
+        <div class="cover cover-color-green"></div>
+        <div class="txt width-1200">
+          <h4 class="font-size-59">
+            Aus alt wird <a href="#article" class="font-size-59">neu</a>
+          </h4>
+          <p class="width-900">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem,
+            praesentium? Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Consectetur, facilis.
+          </p>
+          <!-- <div><a href="#">Mehr erfahren</a></div> -->
+        </div>
+      </div>
+    </header>
+
+    <!-- main -->
+    <main>
+      <!-- steps -->
+      <section class="steps">
+        <img
+          class="main-path-bg"
+          src="./img/steps/background.svg"
+          alt="useless-background-path"
+        />
+
+        <!-- step 1 -->
+        <div class="container">
+          <div class="img">
+            <div class="cover"></div>
+            <img
+              src="./img/steps/suchen-sammeln@2x.png"
+              alt="useless-collect-trash"
+            />
+          </div>
+          <div class="number">1</div>
+          <h2 class="font-size-59">suchen, sammeln</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br />
+            <span
+              >Temporibus beatae labore saepe. Reiciendis molestiae labore quod,
+              alias voluptas totam dicta?</span
+            >
+          </p>
+        </div>
+
+        <!-- step 2 -->
+        <div class="container">
+          <div class="img">
+            <div class="cover"></div>
+            <img src="./img/steps/sortieren@2x.png" alt="useless-sort-trash" />
+          </div>
+          <div class="number">2</div>
+          <h2 class="font-size-59">sortieren, ordnen</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br />
+            <span
+              >Temporibus beatae labore saepe. Reiciendis molestiae labore quod,
+              alias voluptas totam dicta?</span
+            >
+          </p>
+        </div>
+
+        <!-- step 3 -->
+        <div class="container">
+          <div class="img">
+            <div class="cover"></div>
+            <img
+              src="./img/steps/anfertigen-weben@2x.png"
+              alt="useless-fabricate"
+            />
+          </div>
+          <div class="number">3</div>
+          <h2 class="font-size-59">anfertigen, weben</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br />
+            <span
+              >Temporibus beatae labore saepe. Reiciendis molestiae labore quod,
+              alias voluptas totam dicta?</span
+            >
+          </p>
+        </div>
+      </section>
+
+      <!-- articles -->
+      <section class="article" id="article">
+        <a href="#top" class="backtotop backtotop-top backtotop-bg-blue"
+          ><i class="fas fa-chevron-up"></i
+        ></a>
+        <button
+          class="btn-slider btn-slider-mq-lg btn-slider-absolute btn-slider-left"
+        >
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button
+          class="btn-slider btn-slider-mq-lg btn-slider-absolute btn-slider-right"
+        >
+          <i class="fas fa-chevron-right"></i>
+        </button>
+        <div
+          class="flex justify-center width-1200 margin-auto wraper"
+          id="articles"
+        >
+          <div class="container">
+            <img
+              src="./img/stop-using-plastic-compressed-plastic-water-bottle-ALB5G72.jpg"
+              alt="useless-model-blog-1"
+            />
+            <div class="txt">
+              <h2 class="font-size-15">Die Plastik miesere</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+                omnis quod laborum aspernatur perspiciatis ratione praesentium,
+                incidunt delectus, esse tenetur ullam officiis dolores.
+                <br />Atque, assumenda maiores laborum dolore nemo itaque.
+              </p>
+              <a href="blog.html" class="btn btn-green flex justify-between"
+                ><div>Weiter lesen</div>
+                <i class="fas fa-chevron-right text-1"></i
+              ></a>
+            </div>
+          </div>
+          <div class="container">
+            <img
+              src="./img/AdobeStock_336181022_Preview.jpg"
+              alt="useless-model-blog-2"
+            />
+            <div class="txt">
+              <h2 class="font-size-15">Lorem, ipsum dolor.</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+                omnis quod laborum aspernatur perspiciatis ratione praesentium,
+                incidunt delectus, esse tenetur ullam officiis dolores.
+                <br />Atque, assumenda maiores laborum dolore nemo itaque.
+              </p>
+              <a href="#" class="btn btn-green flex justify-between"
+                ><div>Weiter lesen</div>
+                <i class="fas fa-chevron-right text-1"></i
+              ></a>
+            </div>
+          </div>
+          <div class="container">
+            <img
+              src="./img/AdobeStock_339702104_Preview.jpg"
+              alt="useless-model-blog-3"
+            />
+            <div class="txt">
+              <h2 class="font-size-15">Lorem, ipsum dolor.</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+                omnis quod laborum aspernatur perspiciatis ratione praesentium,
+                incidunt delectus, esse tenetur ullam officiis dolores.
+                <br />Atque, assumenda maiores laborum dolore nemo itaque.
+              </p>
+              <a href="#" class="btn btn-green flex justify-between"
+                ><div>Weiter lesen</div>
+                <i class="fas fa-chevron-right text-1"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="#top" class="backtotop backtotop-bottom backtotop-bg-white"
+          ><i class="fas fa-chevron-up"></i
+        ></a>
+      </section>
+
+      <!-- product img -->
+      <section class="product-img" id="product">
+        <!-- buttons lightbox -->
+        <div id="aditional-content" style="display: none">
+          <button class="btn-slider btn-close">
+            <i class="fas fa-times"></i>
+          </button>
+          <button class="btn-slider btn-slider-fixed btn-slider-left">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="btn-slider btn-slider-fixed btn-slider-right">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+          <div class="img-dots flex"></div>
+        </div>
+        <div class="container width-900" id="lightbox">
+          <div class="box portrait">
+            <div>
+              <h4 class="font-size-15">Ansehen</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Assumenda obcaecati corrupti expedita dolore pariatur
+                perferendis deserunt excepturi ea voluptate. Amet at
+                necessitatibus est voluptatem quae labore, maxime sapiente
+                impedit ut nemo eius. Nostrum vero magni est iure consectetur
+                dicta libero.
+              </p>
+            </div>
+            <img
+              src="./img/AdobeStock_274713580_Preview.jpeg"
+              alt="useless-model-1"
+            />
+          </div>
+          <div class="box landscape">
+            <div>
+              <h4 class="font-size-15">Überschirft</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+                deserunt exercitationem.
+              </p>
+            </div>
+            <img
+              src="./img/AdobeStock_330433353_Preview.jpeg"
+              alt="useless-model-2"
+            />
+          </div>
+          <div class="box landscape">
+            <div>
+              <h4 class="font-size-15">Überschirft</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+                deserunt exercitationem.
+              </p>
+            </div>
+            <img
+              src="./img/AdobeStock_250849631_Preview.jpeg"
+              alt="useless-model-3"
+            />
+          </div>
+          <div class="box portrait">
+            <div>
+              <h4 class="font-size-15">Überschirft</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Assumenda obcaecati corrupti expedita dolore pariatur
+                perferendis deserunt excepturi ea voluptate.
+              </p>
+            </div>
+            <img
+              src="./img/AdobeStock_338347472_Preview.jpeg"
+              alt="useless-model-4"
+            />
+          </div>
+          <div class="box landscape">
+            <div>
+              <h4 class="font-size-15">Überschirft</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+                deserun.
+              </p>
+            </div>
+            <img
+              src="./img/AdobeStock_239369237_Preview.jpeg"
+              alt="useless-model-5"
+            />
+          </div>
+          <div class="box landscape">
+            <div>
+              <h4 class="font-size-15">Überschirft</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+                deserunt.
+              </p>
+            </div>
+            <img
+              src="./img/AdobeStock_248957586_Preview.jpeg"
+              alt="useless-model-6"
+            />
+          </div>
+          <div class="box landscape">
+            <div>
+              <h4 class="font-size-15">Überschirft</h4>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+            <img
+              src="./img/AdobeStock_262162983_Preview.jpeg"
+              alt="useless-model-7"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer>
+      <!-- contact -->
+      <section class="contact" id="kontakt">
+        <div class="cover cover-color-green"></div>
+        <img
+          src="./img/businessman-on-the-phone-2021-09-02-06-02-33-utc-small.jpg"
+          alt="useless-background-contakt"
+        />
+        <div class="width-900 txt">
+          <a class="back-to-top" href="#top"></a>
+          <h3 class="font-size-30">Du hast Fragen? Schreibe uns.</h3>
+          <form action="#">
+            <div class="flex justify-center flex-column-sm">
+              <input type="text" name="name" placeholder="Name" />
+              <input type="mail" name="mail" placeholder="E-Mail Adresse" />
+            </div>
+            <textarea
+              name="anliegen"
+              id="anliegen"
+              placeholder="Trage hier dein Anliegen ein..."
+            ></textarea>
+            <input class="btn btn-blue" type="submit" value="Weg damit" />
+          </form>
+        </div>
+      </section>
+
+      <!-- social media links -->
+      <section class="sozial-media">
+        <a href="#top" class="backtotop backtotop-top backtotop-bg-green"
+          ><i class="fas fa-chevron-up"></i
+        ></a>
+        <div class="width-900 margin-auto">
+          <h3 class="font-size-30">Unterstützte uns auf unserer Mission</h3>
+          <div class="flex justify-center">
+            <a href="#"><i class="fab fa-instagram fa-icon"></i></a>
+            <a href="#"><i class="fab fa-facebook-square fa-icon"></i></a>
+            <a href="#"><i class="fab fa-twitter-square fa-icon"></i></a>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer links -->
+      <nav>
+        <div class="width-900 flex justify-between flex-column-sm margin-auto">
+          <ul class="footer-link-box">
+            <h4 class="font-size-15">Wichtige Seiten</h4>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Über uns</a></li>
+            <li><a href="galerie.html">Galerie</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+          </ul>
+          <ul class="footer-link-box">
+            <h4 class="font-size-15">Über useless.com</h4>
+            <li><a href="#">Datenschutz</a></li>
+            <li><a href="#">AGB</a></li>
+            <li><a href="#">Cookies</a></li>
+          </ul>
+          <ul class="footer-link-box">
+            <h4 class="font-size-15">Besuche uns</h4>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- seals -->
+      <section class="seal">
+        <div class="width-1200 flex justify-center margin-auto">
+          <img src="img/seal/bio.png" alt="useless-bio-seal" />
+          <img src="img/seal/bioland.png" alt="useless-bioland-seal" />
+          <img src="img/seal/bio2.png" alt="useless-bio-seal" />
+          <img src="img/seal/fairtrade.png" alt="useless-fairtrade-seal" />
+          <img src="img/seal/fsc.png" alt="useless-fsc-seal" />
+        </div>
+      </section>
+
+      <!-- copyright -->
+      <div class="copyright"><a href="#" nofollow>© Daniel Hilmer</a></div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+// ***UseLess***
+
+// ===FONT===
+//  - primary font: Nunito "font/Nunito/Nunito-Regular.ttf"
+//  - secondary font: Playfair_Display "font/Nunito/Nunito-Regular.ttf"
+
+// ===COLOR===
+//  primary color 
+// --darkgreen: #2D4D3F;
+// --lightgreen: #56806C;
+
+//  secondary color 
+// --darkblue: #496B80;
+// --lightblue: #6F9BB3;
+
+//  grayscale 
+// --gray-900: #111827
+// --gray-600: #4b5563
+// --gray-300: #d1d5db
+// --gray-100: #f3f4f6
+
+// color, font for all pages
+@import color.sass
+@import font.sass
+
+// media queries
+@import media.sass
+
+// reset data, global classes, etc.
+@import global.sass
+
+// header for all pages
+@import header.sass
+
+// css for diverent pages 
+main
+    @import index.sass
+    @import about.sass
+    @import stories.sass
+    @import blog.sass
+    @import readme.sass
+
+// footer for all pages
+@import footer.sass
